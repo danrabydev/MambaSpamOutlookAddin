@@ -42,7 +42,7 @@ namespace MambaInteractive.Spam.Common
         private static class Defaults
         {
             public const string StrProfileName = "Default";
-            public const bool BlnDeleteAfterReport = false;
+            public const bool BlnDeleteAfterReport = true;
             public const bool BlnMarkAsReadAfterReport = false;
             public const bool BlnMoveToFolderAfterReport = false;
             public const string StrMoveFolderName = "";
@@ -50,13 +50,13 @@ namespace MambaInteractive.Spam.Common
             public const string StrReportSubject = "Spam Report";
             public const string StrMessageBody = "Uh Oh, Spam!";
             public const string StrReportEndText = "The End";
-            public const bool BlnAskVerify = true;
+            public const bool BlnAskVerify = false;
             public const bool BlnKeepCopy = true;
             public const bool BlnSendMultiple = true;
             public const bool BlnUseRFC = true;
             public const bool BlnSendReceiveAfterReport = true;
             public const bool BlnCleanHeaders = false;
-            public const string StrToAddresses = "daniel.raby@allendevaux.com";
+            public const string StrToAddresses = "spam@amicusrx.com";
             public const string StrBccAddresses = "";
         }
         static readonly char[] splitter = { ';' };
