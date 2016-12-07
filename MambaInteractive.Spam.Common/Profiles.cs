@@ -399,7 +399,16 @@ namespace MambaInteractive.Spam.Common
             // Make sure the key exists
             if (!SGGlobals.DoesKeyExist(strKey))
             {
-                throw new ProfileNotFoundException(String.Format("The profile {0} Could not be found", Id));
+                try
+                {
+                    Save();
+                    LoadProfile();
+                    return;
+                }
+                catch
+                {
+                    throw new ProfileNotFoundException(String.Format("The profile {0} Could not be found", Id));
+                }
             }
                 
             // Load the values into the class data
