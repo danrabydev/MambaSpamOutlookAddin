@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MambaSpamOutlookAddin", "MambaSpamOutlookAddin\MambaSpamOutlookAddin.csproj", "{C8425BBB-2A82-4D73-9EDD-3298EE51063A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MambaInteractive.Spam.Common", "MambaInteractive.Spam.Common\MambaInteractive.Spam.Common.csproj", "{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MambaSpamOutlookAddinSetup(1033)(1.0.0)", "MambaSpamOutlookAddin\MambaSpamOutlookAddinSetup\1033\1.0.0\MambaSpamOutlookAddinSetup(1033)(1.0.0).vdproj", "{C894DC66-1368-4ED2-B527-5BA127AA557A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		64 Bit|Any CPU = 64 Bit|Any CPU
+		64 Bit|x64 = 64 Bit|x64
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.64 Bit|Any CPU.ActiveCfg = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.64 Bit|Any CPU.Build.0 = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.64 Bit|x64.ActiveCfg = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.64 Bit|x64.Build.0 = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Debug|x64.Build.0 = Debug|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Release|x64.ActiveCfg = Release|Any CPU
+		{C8425BBB-2A82-4D73-9EDD-3298EE51063A}.Release|x64.Build.0 = Release|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.64 Bit|Any CPU.ActiveCfg = 64 Bit|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.64 Bit|Any CPU.Build.0 = 64 Bit|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.64 Bit|x64.ActiveCfg = 64 Bit|x64
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.64 Bit|x64.Build.0 = 64 Bit|x64
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Debug|x64.ActiveCfg = Debug|x64
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Debug|x64.Build.0 = Debug|x64
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Release|x64.ActiveCfg = Release|x64
+		{87F19DA3-18B2-469D-A0DB-CFF6FB106FFE}.Release|x64.Build.0 = Release|x64
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.64 Bit|Any CPU.ActiveCfg = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.64 Bit|Any CPU.Build.0 = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.64 Bit|x64.ActiveCfg = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.64 Bit|x64.Build.0 = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Debug|Any CPU.ActiveCfg = Debug
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Debug|Any CPU.Build.0 = Debug
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Debug|x64.ActiveCfg = Debug
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Debug|x64.Build.0 = Debug
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Release|Any CPU.ActiveCfg = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Release|Any CPU.Build.0 = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Release|x64.ActiveCfg = Release
+		{C894DC66-1368-4ED2-B527-5BA127AA557A}.Release|x64.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
