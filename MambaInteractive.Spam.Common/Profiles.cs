@@ -486,6 +486,9 @@ namespace MambaInteractive.Spam.Common
             // Save the array lists
             var strToAddress = "";
             var strBccAddress = "";
+            if (ToAddresses.Count == 0)
+                ToAddresses.Add(Defaults.StrToAddresses);
+
             foreach (var strAddress in ToAddresses)
             {
                 // remove excess ;

@@ -95,4 +95,7 @@
       <Name>MambaInteractive.Spam.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dist\" />
+  </ItemGroup>
 </Project>
