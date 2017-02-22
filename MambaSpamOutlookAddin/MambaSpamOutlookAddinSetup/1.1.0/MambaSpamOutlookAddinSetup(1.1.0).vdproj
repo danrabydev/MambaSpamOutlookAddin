@@ -3,10 +3,10 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:MambaSpamOutlookAddinSetup(1033)(1.0.6)"
-"LanguageId" = "3:1033"
+"ProjectName" = "8:MambaSpamOutlookAddinSetup(1.1.0)"
+"LanguageId" = "3:0"
 "CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"UILanguageId" = "3:0"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -57,7 +57,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7DAB16B4B142C20C9E45FD7EFC095F43"
+        "MsmKey" = "8:_2ACD7A3FA0DA3B77CD00B1121131DCC9"
         "OwnerKey" = "8:_1223A86871044FCB82F28F63D17AA70D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -136,7 +136,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7DAB16B4B142C20C9E45FD7EFC095F43"
+        "OwnerKey" = "8:_2ACD7A3FA0DA3B77CD00B1121131DCC9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -159,7 +159,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\MambaSpamOutlookAddinSetup(1033)(1.0.6).msi"
+        "OutputFilename" = "8:Debug\\MambaSpamOutlookAddinSetup(1.1.0).msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -186,7 +186,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\MambaSpamOutlookAddinSetup(1033)(1.0.0).msi"
+        "OutputFilename" = "8:Release\\MambaSpamOutlookAddinSetup(1.1.0).msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -220,7 +220,7 @@
             "Object" = "8:_0AC4BB0B2D0448E3A2CF7CCB287D6D0E"
             "FileType" = "3:2"
             "InstallAction" = "3:3"
-            "Arguments" = "8:/uninstall=\"MambaSpamOutlookAddin.dll\" /privileges=admin"
+            "Arguments" = "8:/uninstall=\"MambaSpamOutlookAddin.dll\" /privileges=admin /generateLogFile=false"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_C44F1775_24B5_43E2_9C42_1BA17EC223B0"
@@ -270,7 +270,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:4.0.30319    "
+                "FrameworkVersion" = "8:4.0.30319"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -280,7 +280,7 @@
         {
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_065924003BD749BC864364CB30199C11"
             {
-            "SourcePath" = "8:..\\..\\..\\Loader\\adxloader64.dll"
+            "SourcePath" = "8:..\\..\\Loader\\adxloader64.dll"
             "TargetName" = "8:adxloader64.dll"
             "Tag" = "8:"
             "Folder" = "8:_D3166896672F4C2CB92062B90A3F2E2D"
@@ -369,14 +369,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7DAB16B4B142C20C9E45FD7EFC095F43"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2ACD7A3FA0DA3B77CD00B1121131DCC9"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:MambaInteractive.Spam.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=9654ffc3c6bd9c7d, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7DAB16B4B142C20C9E45FD7EFC095F43"
+                    "_2ACD7A3FA0DA3B77CD00B1121131DCC9"
                     {
                     "Name" = "8:MambaInteractive.Spam.Common.dll"
                     "Attributes" = "3:512"
@@ -402,7 +402,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8EA103A45B3240E2B46A6F57B0813E32"
             {
-            "SourcePath" = "8:..\\..\\..\\Loader\\adxloader.dll.manifest"
+            "SourcePath" = "8:..\\..\\Loader\\adxloader.dll.manifest"
             "TargetName" = "8:adxloader.dll.manifest"
             "Tag" = "8:"
             "Folder" = "8:_D3166896672F4C2CB92062B90A3F2E2D"
@@ -484,7 +484,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E369ACDA2B434E21BB456611DF57C948"
             {
-            "SourcePath" = "8:..\\..\\..\\Loader\\adxloader.dll"
+            "SourcePath" = "8:..\\..\\Loader\\adxloader.dll"
             "TargetName" = "8:adxloader.dll"
             "Tag" = "8:"
             "Folder" = "8:_D3166896672F4C2CB92062B90A3F2E2D"
@@ -614,29 +614,29 @@
         "MsiBootstrapper"
         {
         "LangId" = "3:1033"
-        "RequiresElevation" = "11:FALSE"
+        "RequiresElevation" = "11:TRUE"
         }
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Mamba Spam"
-        "ProductCode" = "8:{BC9AB6E1-3510-43DE-8D9A-B0F482FAF69D}"
-        "PackageCode" = "8:{BF7A813B-AF4B-47C6-A2E8-6B04E4FC7AE5}"
+        "ProductName" = "8:MambaSpamOutlookAddin"
+        "ProductCode" = "8:{C8425BBB-2A82-4D73-9EDD-3298EE51063A}"
+        "PackageCode" = "8:{C8425BBB-2A82-4D73-9EDD-3298EE51063A}"
         "UpgradeCode" = "8:{C8425BBB-2A82-4D73-9EDD-3298EE51063B}"
         "AspNetVersion" = "8:4.0.30220.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.5"
+        "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Mamba Interactive"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Mamba Spam Reporting"
+        "Title" = "8:MambaSpamOutlookAddin"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Mamba Interactive"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Report Spam - Enterprise"
+        "ARPCOMMENTS" = "8:MambaSpamOutlookAddin"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
@@ -1170,7 +1170,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1223A86871044FCB82F28F63D17AA70D"
             {
-            "SourcePath" = "8:..\\..\\..\\obj\\Debug\\MambaSpamOutlookAddin.dll"
+            "SourcePath" = "8:..\\..\\obj\\Release\\MambaSpamOutlookAddin.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D3166896672F4C2CB92062B90A3F2E2D"

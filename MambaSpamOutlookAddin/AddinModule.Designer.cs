@@ -64,6 +64,7 @@
             // AddinModule
             // 
             this.AddinName = "MambaSpamOutlookAddin";
+            this.RegisterForAllUsers = true;
             this.SupportedApps = AddinExpress.MSO.ADXOfficeHostApp.ohaOutlook;
 
         }

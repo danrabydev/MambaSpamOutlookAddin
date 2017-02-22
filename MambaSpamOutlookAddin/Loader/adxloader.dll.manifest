@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <assemblyIdentity name="MambaSpamOutlookAddin, PublicKeyToken=138d6dcc068e4130" imageRuntimeVersion="v4.0.30319" />
-  <loaderSettings generateLogFile="true" shadowCopyEnabled="false" privileges="user" minOfficeVersionSupported="15" />
+  <loaderSettings generateLogFile="true" shadowCopyEnabled="false" privileges="administrator" minOfficeVersionSupported="15" />
 </configuration>
