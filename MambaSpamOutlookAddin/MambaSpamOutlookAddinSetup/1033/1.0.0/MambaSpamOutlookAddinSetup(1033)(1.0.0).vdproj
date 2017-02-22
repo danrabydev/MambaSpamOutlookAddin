@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:MambaSpamOutlookAddinSetup(1033)(1.0.5)"
+"ProjectName" = "8:MambaSpamOutlookAddinSetup(1033)(1.0.6)"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -17,6 +17,12 @@
         {
         "MsmKey" = "8:_065924003BD749BC864364CB30199C11"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_09F9882D7A5B71E570998CCE8EF94BC6"
+        "OwnerKey" = "8:_A2755A83C577A0F6092F11AC40EB13EF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,12 +93,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B97EB8B1BBD427A6D0E4F2FD7859D0B0"
-        "OwnerKey" = "8:_A2755A83C577A0F6092F11AC40EB13EF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E369ACDA2B434E21BB456611DF57C948"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -159,7 +159,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\MambaSpamOutlookAddinSetup(1033)(1.0.5).msi"
+        "OutputFilename" = "8:Debug\\MambaSpamOutlookAddinSetup(1033)(1.0.6).msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -220,7 +220,7 @@
             "Object" = "8:_0AC4BB0B2D0448E3A2CF7CCB287D6D0E"
             "FileType" = "3:2"
             "InstallAction" = "3:3"
-            "Arguments" = "8:/uninstall=\"MambaSpamOutlookAddin.dll\" /privileges=admin /generateLogFile=false"
+            "Arguments" = "8:/uninstall=\"MambaSpamOutlookAddin.dll\" /privileges=admin"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_C44F1775_24B5_43E2_9C42_1BA17EC223B0"
@@ -270,7 +270,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:4.0.30319  "
+                "FrameworkVersion" = "8:4.0.30319    "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -296,6 +296,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_09F9882D7A5B71E570998CCE8EF94BC6"
+            {
+            "SourcePath" = "8:AddinExpress.MSO.2005.tlb"
+            "TargetName" = "8:AddinExpress.MSO.2005.tlb"
+            "Tag" = "8:"
+            "Folder" = "8:_D3166896672F4C2CB92062B90A3F2E2D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0AC4BB0B2D0448E3A2CF7CCB287D6D0E"
@@ -404,7 +424,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AddinExpress.MSO.2005, Version=8.4.4395.0, Culture=neutral, PublicKeyToken=4416dd98f0861965, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AddinExpress.MSO.2005, Version=8.5.4401.0, Culture=neutral, PublicKeyToken=4416dd98f0861965, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_A2755A83C577A0F6092F11AC40EB13EF"
@@ -459,26 +479,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B97EB8B1BBD427A6D0E4F2FD7859D0B0"
-            {
-            "SourcePath" = "8:AddinExpress.MSO.2005.tlb"
-            "TargetName" = "8:AddinExpress.MSO.2005.tlb"
-            "Tag" = "8:"
-            "Folder" = "8:_D3166896672F4C2CB92062B90A3F2E2D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
