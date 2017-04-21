@@ -21,7 +21,10 @@ namespace MambaSpamOutlookAddin
             InitializeComponent();
             // Please add any initialization code to the AddinInitialize event handler
             btnReportSpam.Caption = Resources.Button_Label;
+            btnReportSpam2.Caption = Resources.Button_Label;
+                btnReportSpam3.Caption = Resources.Button_Label;
             adxGroupSecurity.Caption = Resources.Group_Label;
+            adxGroupSecurity2.Caption = Resources.Group_Label;
 
         }
  

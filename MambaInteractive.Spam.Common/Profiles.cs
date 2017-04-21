@@ -47,8 +47,8 @@ namespace MambaInteractive.Spam.Common
             public const bool BlnMoveToFolderAfterReport = false;
             public const string StrMoveFolderName = "";
             public const string StrMoveFolderStoreId = "";
-            public const string StrReportSubject = "Spam Report";
-            public const string StrMessageBody = "Uh Oh, Spam!";
+            public const string StrReportSubject = "Spam Report From {{name}}({{email}})";
+            public const string StrMessageBody = "";
             public const string StrReportEndText = "The End";
             public const bool BlnAskVerify = false;
             public const bool BlnKeepCopy = true;

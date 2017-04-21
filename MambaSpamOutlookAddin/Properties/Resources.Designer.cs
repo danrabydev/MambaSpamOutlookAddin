@@ -61,7 +61,7 @@ namespace MambaSpamOutlookAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mark Spam.
+        ///   Looks up a localized string similar to Report Spam.
         /// </summary>
         internal static string Button_Label {
             get {

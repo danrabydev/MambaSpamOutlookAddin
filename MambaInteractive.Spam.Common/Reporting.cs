@@ -35,7 +35,6 @@ namespace MambaInteractive.Spam.Common
         /// <param name="ProfileID"></param>
         public static void SendReports()
         {
-
             if (Profile.AskVerify)
             {
                 if (MessageBox.Show("Are you sure you want to report the selected item(s)?", "Report messages", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
@@ -211,9 +210,13 @@ namespace MambaInteractive.Spam.Common
         /// <returns></returns>
         private static MailItem CreateReportEmail()
         {
+
+            Explorer exp = _app.Application.ActiveExplorer();
+            string subject = Profile.ReportSubject.Replace("{{name}}", exp.Session.CurrentUser.Name);
+            subject = subject.Replace("{{email}}", Application.Session.CurrentUser.AddressEntry.GetExchangeUser().PrimarySmtpAddress);
             // Create the report email
             MailItem reportEmail = (MailItem)_app.CreateItem(OlItemType.olMailItem);
-            reportEmail.Subject = Profile.ReportSubject;
+            reportEmail.Subject = subject;
             string strTo = "";
             foreach (string toAddress in Profile.ToAddresses)
             {

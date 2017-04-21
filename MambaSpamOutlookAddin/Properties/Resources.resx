@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button_Label" xml:space="preserve">
-    <value>Mark Spam</value>
+    <value>Report Spam</value>
   </data>
   <data name="Group_Label" xml:space="preserve">
     <value>Security</value>
